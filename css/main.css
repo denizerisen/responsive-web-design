@@ -353,6 +353,12 @@ img {
   margin: 0 auto;
 }
 
+.unstyled-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .main-header {
   position: absolute;
   top: 0;
@@ -364,10 +370,6 @@ img {
   width: 25%;
   min-width: 10rem;
   max-width: 15rem;
-}
-
-.main-nav {
-  display: none;
 }
 
 .hero {
