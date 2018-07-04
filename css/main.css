@@ -359,6 +359,10 @@ img {
   list-style: none;
 }
 
+.main-nav {
+  background: #d31869;
+}
+
 .main-header {
   position: absolute;
   top: 0;
