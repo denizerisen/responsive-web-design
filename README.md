@@ -1,4 +1,5 @@
 # responsive-web-design
-web design practice with k.p
+web design practice with kevin powell
 
-First experience using Sass.
+learning how to use Sass and Prepros, naming conventions, general workflow.
+
