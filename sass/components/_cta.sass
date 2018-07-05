@@ -1,0 +1,39 @@
+.call-to-action
+    background: $secondary
+    background-image: url(../img/call-to-action-background.jpg)
+    background-size: cover
+    background-position: center
+    padding: 5em 0
+    background-blend-mode: multiply //cuz we have the img as jpg and we need the green
+    color: $text-inverse
+    position: relative
+    overflow: hidden
+    @media(min-width: 725px)
+        padding: 10em 0
+
+        &::before, &::after
+            content: ''
+            display: block
+            position: absolute
+            background: $accent
+            width: 65%
+            height: 100%
+            border-right: 10px solid $white
+            border-left: 10px solid $white
+            transform: skewX(60deg)
+            
+            
+        &::after
+            bottom: 0
+            left: -75%
+        &::before
+            top: 0
+            right: -75%
+
+
+.container-cta
+    
+    @media(max-width: 900px)
+        width: 50%
+        margin: 0 auto
+        
